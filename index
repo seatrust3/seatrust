@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seatrust - Maritime Trust Layer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: radial-gradient(circle at top, #0b2e4a, #06111d);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 100px 20px 60px;
+      text-align: center;
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), transparent);
+    }
+
+    h1 {
+      font-size: 56px;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 20px;
+      opacity: 0.85;
+      margin-top: 10px;
+    }
+
+    .subtext {
+      max-width: 750px;
+      margin: 20px auto 0;
+      opacity: 0.8;
+      line-height: 1.7;
+    }
+
+    .cta {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: #4fc3f7;
+      color: #001018;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      border-left: 4px solid #4fc3f7;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .stat {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .label {
+      font-size: 12px;
+      opacity: 0.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Seatrust</h1>
+  <p class="tagline">Maritime Trust & Identity Layer</p>
+  <p class="subtext">
+    A maritime trust and identity initiative bridging traditional shipping operations with modern blockchain-based verification and digital identity systems.
+  </p>
+  <a class="cta" href="#about">Explore Seatrust</a>
+</header>
+
+<section class="stats">
+  <div><div class="stat">1999</div><div class="label">Established Maritime Presence</div></div>
+  <div><div class="stat">Web3</div><div class="label">Transition Layer</div></div>
+  <div><div class="stat">Global</div><div class="label">Maritime Reach</div></div>
+</section>
+
+<section id="about">
+  <h2>About Seatrust</h2>
+  <div class="card">
+    Seatrust is a maritime trust and identity initiative established in 1999, originally operating in the maritime and shipping domain with early digital presence during the first generation of the web.
+    <br><br>
+    Today, Seatrust is evolving into a modern Web3 maritime trust layer, focused on digital identity, verification, and secure representation for global shipping operations.
+    <br><br>
+    By combining decades of maritime experience with decentralized technologies, Seatrust bridges traditional maritime operations with the emerging world of blockchain-based identity systems.
+  </div>
+</section>
+
+<section>
+  <h2>Core Capabilities</h2>
+  <div class="grid">
+    <div class="card"><h3>Maritime Identity</h3>Digital identity for vessels, ports, and companies.</div>
+    <div class="card"><h3>Verification Layer</h3>Blockchain-based validation of maritime documents.</div>
+    <div class="card"><h3>Trust Infrastructure</h3>Secure and tamper-proof maritime records system.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Use Cases</h2>
+  <div class="grid">
+    <div class="card">Shipping Companies</div>
+    <div class="card">Port Authorities</div>
+    <div class="card">Marine Insurance</div>
+    <div class="card">Logistics & Tracking</div>
+  </div>
+</section>
+
+<section>
+  <h2>Vision</h2>
+  <div class="card">
+    To become the global maritime trust layer, enabling secure, transparent, and verifiable digital maritime operations using decentralized technologies.
+  </div>
+</section>
+
+<footer>
+  © 2026 Seatrust. Maritime Trust Layer.
+</footer>
+
+</body>
+</html>
